@@ -1,5 +1,8 @@
 .DS_Store
 
+# Config
+config/application.yml
+
 # Editors
 .idea/
 .vscode/
