@@ -44,7 +44,7 @@ class KubernetesCli
       CLI::UI::Prompt.ask('Which kind of pod do you want to connect to?') do |handler|
         @configuration.pods.each do |pod|
           handler.option(pod['displayName']) do
-            connect_to_pod(pod['type'])
+            connect_to_pod(pod['name'])
           end
         end
         render_go_back_option handler
