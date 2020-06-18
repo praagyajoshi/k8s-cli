@@ -1,0 +1,15 @@
+pods:
+  - displayName: API
+    name: api-pod-name-1
+  - displayName: Worker
+    name: worker-pod-name-1
+contexts:
+  - displayName: Testing
+    region: eu-west-1
+    name: testing-env
+  - displayName: Staging
+    region: eu-west-1
+    name: staging-env
+  - displayName: Production
+    region: eu-west-1
+    name: prod-env
