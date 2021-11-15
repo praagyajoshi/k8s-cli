@@ -30,7 +30,7 @@ module Commands
   class AWS
     class << self
       def update_context(region, name)
-        "aws eks update-kubeconfig --region #{region} --name #{name}"
+        "aws eks update-kubeconfig --region #{region} --name #{name} --profile ecommerce"
       end
     end
   end

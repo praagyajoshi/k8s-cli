@@ -177,6 +177,10 @@ class KubernetesCli
         'Production'
       elsif result.include?('shopify-stream-staging')
         'Staging'
+      elsif result.include?('shopify-stream-bfcm2')
+        'BFCM2'
+      elsif result.include?('shopify-stream-bfcm')
+        'BFCM'
       else
         'Unknown context'
       end
